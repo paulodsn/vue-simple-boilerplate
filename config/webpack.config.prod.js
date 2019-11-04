@@ -5,7 +5,6 @@ const commonConfig = require('./webpack.config.common');
 
 module.exports = merge(commonConfig, {
     mode: 'production',
-    target: 'node',
     plugins: [new HtmlWebpackPlugin({
         template: path.resolve(__dirname, '..', './index.html'),
     })]
