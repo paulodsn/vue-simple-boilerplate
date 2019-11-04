@@ -1,6 +1,6 @@
 <template>
-    <div class="Home">
-        <h1>Home</h1>
+    <div class="About">
+        <h1>About</h1>
         <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -16,19 +16,11 @@
             clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
             amet.
         </p>
-
-        <Button>
-            I'm button
-        </Button>
     </div>
 </template>
-<script>
-import Button from '@/components/Button';
 
+<script>
 export default {
-    name: 'Home',
-    components: {
-        Button,
-    }
+    name: 'About'
 }
 </script>

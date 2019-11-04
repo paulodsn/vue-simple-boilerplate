@@ -2,6 +2,6 @@ import Home from '@/views/Home';
 
 export default {
     path: '/',
-    name: 'HelloWorld',
+    name: 'home',
     component: Home
 };
