@@ -1,8 +1,60 @@
-# vue-simple-boilerplate
+# Vue simple boilerplate
+This project have as objective to facilitate creating project with [Vue.js](https://vuejs.org/)
 
-> A Vue.js project
+## Features
+- [SASS](https://sass-lang.com)
+- [Vue Router](https://router.vuejs.org)
 
-## Build Setup
+## Project stucture
+- [config](#config)
+- [static](#static)
+- [src](#src)
+    - [assets](#assets)
+    - [components](#components)
+    - [layouts](#layouts)
+    - [router](#router)
+    - [scss](#scss)
+    - [views](#views)
+    - [App.vue](#App.vue)
+    - [main.js](#main.js)
+
+### config
+Where we keep configurations of [webpack](https://webpack.js.org/)
+
+### static
+Pure static assets (directly copied)
+
+### src
+Source folder
+
+### assets
+Where we keep images, fonts and others media stuff. 
+> OBS: This folder will be processed by [webpack](https://webpack.js.org/)
+
+### components
+Shared components folder
+
+### layouts
+Where we keep all layouts used in project
+- `Header`, `footer` components and main layout wrapper
+
+### router
+Router instance and routing declaration
+- `index` - router initialization.
+
+### scss
+Global style folder (partials, variables, mixins, reset)
+
+### views
+Page folders (components that are routed)
+
+### App.vue
+Main app component
+
+### main.js
+Root app initialization file.
+
+## Project setup
 
 ``` bash
 # install dependencies
@@ -15,4 +67,6 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Repos that can helped
+- https://github.com/FortAwesome/vue-fontawesome
+- https://github.com/bootstrap-vue/bootstrap-vue 
