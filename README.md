@@ -1,5 +1,5 @@
 # Vue simple boilerplate
-This project have as objective to facilitate creating project with [Vue.js](https://vuejs.org/)
+This project has a unique purpose: turn simple starting a project with [Vue.js](https://vuejs.org/)
 
 ## Features
 - [SASS](https://sass-lang.com)
@@ -28,15 +28,15 @@ Pure static assets (directly copied)
 Source folder
 
 ### assets
-Where we keep images, fonts and others media stuff. 
-> OBS: This folder will be processed by [webpack](https://webpack.js.org/)
+Where we keep images, fonts and others media stuff.
+> PS: This folder will be processed by [webpack](https://webpack.js.org/)
 
 ### components
 Shared components folder
 
 ### layouts
 Where we keep all layouts used in project
-- `Header`, `footer` components and main layout wrapper
+- `header`, `footer` components and main layout wrapper
 
 ### router
 Router instance and routing declaration
@@ -70,6 +70,6 @@ npm run dev
 npm run build
 ```
 
-## Repos that can helped
+## Repos that can help
 - https://github.com/FortAwesome/vue-fontawesome
-- https://github.com/bootstrap-vue/bootstrap-vue 
+- https://github.com/bootstrap-vue/bootstrap-vue
