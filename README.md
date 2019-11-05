@@ -57,6 +57,9 @@ Root app initialization file.
 ## Project setup
 
 ``` bash
+# clone repo
+git clone https://github.com/paulodsn/vue-simple-boilerplate.git
+
 # install dependencies
 npm install
 
